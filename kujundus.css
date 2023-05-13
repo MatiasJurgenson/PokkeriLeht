@@ -1,0 +1,56 @@
+body {
+    background-color:whitesmoke;
+}
+
+.keskele {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.pilt_keskele {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.tekst_parem {
+    width: 50%;
+    text-align: center;
+    float: right;
+    background-color: rgb(255, 255, 255);
+}
+
+.tekst_vasak {
+    width: 50%;
+    text-align: center;
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+
+.pilt_parem {
+    float: right;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+.pilt_vasak {
+    text-align: center;
+    float: left;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+.tekst_pilt {
+    transition: 0.3s;
+    z-index: -1;
+    overflow: auto;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.tekst_pilt:hover {
+    z-index: 1;
+    transform: scale(1.2);
+    opacity: 1;
+}
